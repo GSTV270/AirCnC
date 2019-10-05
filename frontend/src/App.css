@@ -23,7 +23,7 @@ body, input, button {
 }
 
 .container {
-  margin: 80px auto 0;
+  margin: 80px auto 40px;
   max-width: 450px;
   width: 100%;
   display: flex;
@@ -55,6 +55,12 @@ body, input, button {
   color: #444;
   font-weight: bold;
   margin-top: 8px;
+}
+
+.content form label span {
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
 }
 
 .content input {
